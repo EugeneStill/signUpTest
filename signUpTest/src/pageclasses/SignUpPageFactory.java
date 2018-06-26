@@ -149,7 +149,7 @@ public class SignUpPageFactory {
 		driver.switchTo().frame(iFrameCvc);
 		cvc.clear();
 		cvc.sendKeys(cvcNum);
-		log.info("Enter card as " + cvcNum);
+		log.info("Enter cvc as " + cvcNum);
 		driver.switchTo().parentFrame(); 
 	}
 
