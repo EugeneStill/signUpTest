@@ -24,7 +24,7 @@
     <div class="top-banner-root">
       <span class="top-banner-title-font">Test results</span>
       <br/>
-      <span class="top-banner-font-1">1 suite</span>
+      <span class="top-banner-font-1">1 suite, 2 failed tests</span>
     </div> <!-- top-banner-root -->
     <div class="navigator-root">
       <div class="navigator-suite-header">
@@ -38,7 +38,7 @@
         <div class="rounded-window">
           <div class="suite-header light-rounded-window-top">
             <a href="#" class="navigator-link" panel-name="suite-Default_suite">
-              <span class="suite-name border-passed">Default suite</span>
+              <span class="suite-name border-failed">Default suite</span>
             </a> <!-- navigator-link -->
           </div> <!-- suite-header light-rounded-window-top -->
           <div class="navigator-suite-content">
@@ -49,7 +49,7 @@
               <ul>
                 <li>
                   <a href="#" class="navigator-link " panel-name="test-xml-Default_suite">
-                    <span>C:\Users\Eugene\AppData\Local\Temp\testng-eclipse-1503908714\testng-customsuite.xml</span>
+                    <span>C:\Users\Eugene\AppData\Local\Temp\testng-eclipse-290346191\testng-customsuite.xml</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
@@ -91,7 +91,26 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">14 methods,   14 passed</span>
+                    <span class="method-stats">14 methods, 2 failed,   12 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-Default_suite" class="hide-methods failed suite-Default_suite"> (hide)</a> <!-- hide-methods failed suite-Default_suite -->
+                      <a href="#" panel-name="suite-Default_suite" class="show-methods failed suite-Default_suite"> (show)</a> <!-- show-methods failed suite-Default_suite -->
+                    </span>
+                    <div class="method-list-content failed suite-Default_suite">
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="testclasses.TestNG_SignUp" hash-for-method="test4_InvalidRegisterForm(Charlie Brown, 5555555555, 123456, 5555 5555 5555 5555, , 123, 12345, p, Your card number is invalid...)">test4_InvalidRegisterForm(Charlie Brown, 5555555555, 123456, 5555 5555 5555 5555, , 123, 12345, p, Your card number is invalid...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="testclasses.TestNG_SignUp" hash-for-method="test4_InvalidRegisterForm(Charlie Brown, 5555555555, 123456, 1, 1020, 123, 12345, p, Your card number is incomplete.)">test4_InvalidRegisterForm(Charlie Brown, 5555555555, 123456, 1, 1020, 123, 12345, p, Your card number is incomplete.)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-Default_suite -->
                   </li>
                   <li>
                     <span class="method-list-title passed">Passed methods</span>
@@ -102,27 +121,27 @@
                     <div class="method-list-content passed suite-Default_suite">
                       <span>
                         <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="testclasses.TestNG_SignUp" hash-for-method="test1_InvalidEmailForm(charliebrown@fakecharlie.net, 947O6, p, Please enter a valid zip code)">test1_InvalidEmailForm(charliebrown@fakecharlie.net, 947O6, p, Please enter a valid zip code)</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="testclasses.TestNG_SignUp" hash-for-method="test1_InvalidEmailForm(charliebrown@fakecharlie.net, 9470, p, Please enter a valid zip code)">test1_InvalidEmailForm(charliebrown@fakecharlie.net, 9470, p, Please enter a valid zip code)</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="testclasses.TestNG_SignUp" hash-for-method="test1_InvalidEmailForm(charlie.brown, 94706, email, Please include an &#039;@&#039; in the email address. &#039;charlie.brown&#039; is missing ...)">test1_InvalidEmailForm(charlie.brown, 94706, email, Please include an '@' in the email address. 'charlie.brown' is missing ...)</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img width="3%" src="passed.png"/>
                         <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="testclasses.TestNG_SignUp" hash-for-method="test1_InvalidEmailForm(charliebrown@fakecharlie.net, , zip, Please fill out this field.)">test1_InvalidEmailForm(charliebrown@fakecharlie.net, , zip, Please fill out this field.)</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
                         <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="testclasses.TestNG_SignUp" hash-for-method="test1_InvalidEmailForm( , 94706, email, Please fill out this field.)">test1_InvalidEmailForm( , 94706, email, Please fill out this field.)</a> <!-- method navigator-link -->
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="testclasses.TestNG_SignUp" hash-for-method="test1_InvalidEmailForm(charliebrown@fakecharlie.net, 9470, p, Please enter a valid US zip code)">test1_InvalidEmailForm(charliebrown@fakecharlie.net, 9470, p, Please enter a valid US zip code)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="testclasses.TestNG_SignUp" hash-for-method="test1_InvalidEmailForm(charlie.brown, 94706, email, Please enter an email address.)">test1_InvalidEmailForm(charlie.brown, 94706, email, Please enter an email address.)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="testclasses.TestNG_SignUp" hash-for-method="test1_InvalidEmailForm( , 94706, email, Please enter an email address.)">test1_InvalidEmailForm( , 94706, email, Please enter an email address.)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="testclasses.TestNG_SignUp" hash-for-method="test1_InvalidEmailForm(charliebrown@fakecharlie.net, 947O6, p, Please enter a valid US zip code)">test1_InvalidEmailForm(charliebrown@fakecharlie.net, 947O6, p, Please enter a valid US zip code)</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
@@ -137,37 +156,27 @@
                       <br/>
                       <span>
                         <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="testclasses.TestNG_SignUp" hash-for-method="test4_InvalidRegisterForm(Charlie Brown, 5555555555, 123456, 1, 1020, 123, 12345, p, Your card number is incomplete.)">test4_InvalidRegisterForm(Charlie Brown, 5555555555, 123456, 1, 1020, 123, 12345, p, Your card number is incomplete.)</a> <!-- method navigator-link -->
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="testclasses.TestNG_SignUp" hash-for-method="test4_InvalidRegisterForm(Charlie Brown, 5555555555, 12345, 1, 1020, 123, 12345, p, Password should be 6 characters or more)">test4_InvalidRegisterForm(Charlie Brown, 5555555555, 12345, 1, 1020, 123, 12345, p, Password should be 6 characters or more)</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
                         <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="testclasses.TestNG_SignUp" hash-for-method="test4_InvalidRegisterForm(Charlie Brown, 555, 123456, 1, 1020, 123, 12345, p, Phone cannot be blank.)">test4_InvalidRegisterForm(Charlie Brown, 555, 123456, 1, 1020, 123, 12345, p, Phone cannot be blank.)</a> <!-- method navigator-link -->
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="testclasses.TestNG_SignUp" hash-for-method="test4_InvalidRegisterForm(Charlie Brown, 555, 123456, 1, 1020, 123, 12345, p, Please enter a valid US mobile phone number)">test4_InvalidRegisterForm(Charlie Brown, 555, 123456, 1, 1020, 123, 12345, p, Please enter a valid US mobile phone number)</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
                         <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="testclasses.TestNG_SignUp" hash-for-method="test4_InvalidRegisterForm(, 5555555555, 123456, 5555, 1020, 123, 12345, p, Full Name cannot be blank.)">test4_InvalidRegisterForm(, 5555555555, 123456, 5555, 1020, 123, 12345, p, Full Name cannot be blank.)</a> <!-- method navigator-link -->
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="testclasses.TestNG_SignUp" hash-for-method="test4_InvalidRegisterForm(Charlie Brown, , 123456, 1, 1020, 123, 12345, phone, Please fill out this field.)">test4_InvalidRegisterForm(Charlie Brown, , 123456, 1, 1020, 123, 12345, phone, Please fill out this field.)</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
                         <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="testclasses.TestNG_SignUp" hash-for-method="test4_InvalidRegisterForm(Charlie Brown, 5555555555, 123456, 5555 5555 5555 5555, , 123, 12345, p, Your card number is invalid...)">test4_InvalidRegisterForm(Charlie Brown, 5555555555, 123456, 5555 5555 5555 5555, , 123, 12345, p, Your card number is invalid...)</a> <!-- method navigator-link -->
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="testclasses.TestNG_SignUp" hash-for-method="test4_InvalidRegisterForm(Charlie Brown, 5555555555, , 1, 1020, 123, 12345, password, Please fill out this field.)">test4_InvalidRegisterForm(Charlie Brown, 5555555555, , 1, 1020, 123, 12345, password, Please fill out this field.)</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
                         <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="testclasses.TestNG_SignUp" hash-for-method="test4_InvalidRegisterForm(Charlie Brown, , 123456, 1, 1020, 123, 12345, p, Phone cannot be blank.)">test4_InvalidRegisterForm(Charlie Brown, , 123456, 1, 1020, 123, 12345, p, Phone cannot be blank.)</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="testclasses.TestNG_SignUp" hash-for-method="test4_InvalidRegisterForm(Charlie Brown, 5555555555, 12345, 1, 1020, 123, 12345, p, Password must be between 6 and 71 characte...)">test4_InvalidRegisterForm(Charlie Brown, 5555555555, 12345, 1, 1020, 123, 12345, p, Password must be between 6 and 71 characte...)</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="testclasses.TestNG_SignUp" hash-for-method="test4_InvalidRegisterForm(Charlie Brown, 5555555555, , 1, 1020, 123, 12345, p, Password must be between 6 and 71 characters lo...)">test4_InvalidRegisterForm(Charlie Brown, 5555555555, , 1, 1020, 123, 12345, p, Password must be between 6 and 71 characters lo...)</a> <!-- method navigator-link -->
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="testclasses.TestNG_SignUp" hash-for-method="test4_InvalidRegisterForm(, 5555555555, 123456, 5555, 1020, 123, 12345, name, Please fill out this field.)">test4_InvalidRegisterForm(, 5555555555, 123456, 5555, 1020, 123, 12345, name, Please fill out this field.)</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                     </div> <!-- method-list-content passed suite-Default_suite -->
@@ -182,36 +191,106 @@
     <div class="wrapper">
       <div class="main-panel-root">
         <div panel-name="suite-Default_suite" class="panel Default_suite">
+          <div class="suite-Default_suite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">testclasses.TestNG_SignUp</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="test4_InvalidRegisterForm(Charlie Brown, 5555555555, 123456, 5555 5555 5555 5555, , 123, 12345, p, Your card number is invalid...)">
+                  </a> <!-- test4_InvalidRegisterForm(Charlie Brown, 5555555555, 123456, 5555 5555 5555 5555, , 123, 12345, p, Your card number is invalid...) -->
+                  <span class="method-name">test4_InvalidRegisterForm</span>
+                  <span class="parameters">(Charlie Brown, 5555555555, 123456, 5555 5555 5555 5555, , 123, 12345, p, Your card number is invalid.)</span>
+                  <div class="stack-trace">java.lang.AssertionError: expected [Your card number is invalid.] but found [Password should be 6 characters or more]
+	at org.testng.Assert.fail(Assert.java:93)
+	at org.testng.Assert.failNotEquals(Assert.java:512)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:134)
+	at org.testng.Assert.assertEquals(Assert.java:115)
+	at org.testng.Assert.assertEquals(Assert.java:189)
+	at org.testng.Assert.assertEquals(Assert.java:199)
+	at testclasses.TestNG_SignUp.test4_InvalidRegisterForm(TestNG_SignUp.java:85)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:661)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:869)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1193)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:744)
+	at org.testng.TestRunner.run(TestRunner.java:602)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:380)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:375)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1226)
+	at org.testng.TestNG.runSuites(TestNG.java:1144)
+	at org.testng.TestNG.run(TestNG.java:1115)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="test4_InvalidRegisterForm(Charlie Brown, 5555555555, 123456, 1, 1020, 123, 12345, p, Your card number is incomplete.)">
+                  </a> <!-- test4_InvalidRegisterForm(Charlie Brown, 5555555555, 123456, 1, 1020, 123, 12345, p, Your card number is incomplete.) -->
+                  <span class="method-name">test4_InvalidRegisterForm</span>
+                  <span class="parameters">(Charlie Brown, 5555555555, 123456, 1, 1020, 123, 12345, p, Your card number is incomplete.)</span>
+                  <div class="stack-trace">java.lang.AssertionError: expected [Your card number is incomplete.] but found [Password should be 6 characters or more]
+	at org.testng.Assert.fail(Assert.java:93)
+	at org.testng.Assert.failNotEquals(Assert.java:512)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:134)
+	at org.testng.Assert.assertEquals(Assert.java:115)
+	at org.testng.Assert.assertEquals(Assert.java:189)
+	at org.testng.Assert.assertEquals(Assert.java:199)
+	at testclasses.TestNG_SignUp.test4_InvalidRegisterForm(TestNG_SignUp.java:85)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:661)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:869)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1193)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:744)
+	at org.testng.TestRunner.run(TestRunner.java:602)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:380)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:375)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1226)
+	at org.testng.TestNG.runSuites(TestNG.java:1144)
+	at org.testng.TestNG.run(TestNG.java:1115)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Default_suite-class-failed -->
           <div class="suite-Default_suite-class-passed">
             <div class="main-panel-header rounded-window-top">
               <img src="passed.png"/>
               <span class="class-name">testclasses.TestNG_SignUp</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
-              <div class="method">
-                <div class="method-content">
-                  <a name="test1_InvalidEmailForm(charliebrown@fakecharlie.net, 947O6, p, Please enter a valid zip code)">
-                  </a> <!-- test1_InvalidEmailForm(charliebrown@fakecharlie.net, 947O6, p, Please enter a valid zip code) -->
-                  <span class="method-name">test1_InvalidEmailForm</span>
-                  <span class="parameters">(charliebrown@fakecharlie.net, 947O6, p, Please enter a valid zip code)</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="test1_InvalidEmailForm(charliebrown@fakecharlie.net, 9470, p, Please enter a valid zip code)">
-                  </a> <!-- test1_InvalidEmailForm(charliebrown@fakecharlie.net, 9470, p, Please enter a valid zip code) -->
-                  <span class="method-name">test1_InvalidEmailForm</span>
-                  <span class="parameters">(charliebrown@fakecharlie.net, 9470, p, Please enter a valid zip code)</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="test1_InvalidEmailForm(charlie.brown, 94706, email, Please include an &#039;@&#039; in the email address. &#039;charlie.brown&#039; is missing ...)">
-                  </a> <!-- test1_InvalidEmailForm(charlie.brown, 94706, email, Please include an '@' in the email address. 'charlie.brown' is missing ...) -->
-                  <span class="method-name">test1_InvalidEmailForm</span>
-                  <span class="parameters">(charlie.brown, 94706, email, Please include an '@' in the email address. 'charlie.brown' is missing an '@'.)</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
               <div class="method">
                 <div class="method-content">
                   <a name="test1_InvalidEmailForm(charliebrown@fakecharlie.net, , zip, Please fill out this field.)">
@@ -222,10 +301,34 @@
               </div> <!-- method -->
               <div class="method">
                 <div class="method-content">
-                  <a name="test1_InvalidEmailForm( , 94706, email, Please fill out this field.)">
-                  </a> <!-- test1_InvalidEmailForm( , 94706, email, Please fill out this field.) -->
+                  <a name="test1_InvalidEmailForm(charliebrown@fakecharlie.net, 9470, p, Please enter a valid US zip code)">
+                  </a> <!-- test1_InvalidEmailForm(charliebrown@fakecharlie.net, 9470, p, Please enter a valid US zip code) -->
                   <span class="method-name">test1_InvalidEmailForm</span>
-                  <span class="parameters">( , 94706, email, Please fill out this field.)</span>
+                  <span class="parameters">(charliebrown@fakecharlie.net, 9470, p, Please enter a valid US zip code)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="test1_InvalidEmailForm(charlie.brown, 94706, email, Please enter an email address.)">
+                  </a> <!-- test1_InvalidEmailForm(charlie.brown, 94706, email, Please enter an email address.) -->
+                  <span class="method-name">test1_InvalidEmailForm</span>
+                  <span class="parameters">(charlie.brown, 94706, email, Please enter an email address.)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="test1_InvalidEmailForm( , 94706, email, Please enter an email address.)">
+                  </a> <!-- test1_InvalidEmailForm( , 94706, email, Please enter an email address.) -->
+                  <span class="method-name">test1_InvalidEmailForm</span>
+                  <span class="parameters">( , 94706, email, Please enter an email address.)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="test1_InvalidEmailForm(charliebrown@fakecharlie.net, 947O6, p, Please enter a valid US zip code)">
+                  </a> <!-- test1_InvalidEmailForm(charliebrown@fakecharlie.net, 947O6, p, Please enter a valid US zip code) -->
+                  <span class="method-name">test1_InvalidEmailForm</span>
+                  <span class="parameters">(charliebrown@fakecharlie.net, 947O6, p, Please enter a valid US zip code)</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
               <div class="method">
@@ -244,58 +347,42 @@
               </div> <!-- method -->
               <div class="method">
                 <div class="method-content">
-                  <a name="test4_InvalidRegisterForm(Charlie Brown, 5555555555, 123456, 1, 1020, 123, 12345, p, Your card number is incomplete.)">
-                  </a> <!-- test4_InvalidRegisterForm(Charlie Brown, 5555555555, 123456, 1, 1020, 123, 12345, p, Your card number is incomplete.) -->
+                  <a name="test4_InvalidRegisterForm(Charlie Brown, 5555555555, 12345, 1, 1020, 123, 12345, p, Password should be 6 characters or more)">
+                  </a> <!-- test4_InvalidRegisterForm(Charlie Brown, 5555555555, 12345, 1, 1020, 123, 12345, p, Password should be 6 characters or more) -->
                   <span class="method-name">test4_InvalidRegisterForm</span>
-                  <span class="parameters">(Charlie Brown, 5555555555, 123456, 1, 1020, 123, 12345, p, Your card number is incomplete.)</span>
+                  <span class="parameters">(Charlie Brown, 5555555555, 12345, 1, 1020, 123, 12345, p, Password should be 6 characters or more)</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
               <div class="method">
                 <div class="method-content">
-                  <a name="test4_InvalidRegisterForm(Charlie Brown, 555, 123456, 1, 1020, 123, 12345, p, Phone cannot be blank.)">
-                  </a> <!-- test4_InvalidRegisterForm(Charlie Brown, 555, 123456, 1, 1020, 123, 12345, p, Phone cannot be blank.) -->
+                  <a name="test4_InvalidRegisterForm(Charlie Brown, 555, 123456, 1, 1020, 123, 12345, p, Please enter a valid US mobile phone number)">
+                  </a> <!-- test4_InvalidRegisterForm(Charlie Brown, 555, 123456, 1, 1020, 123, 12345, p, Please enter a valid US mobile phone number) -->
                   <span class="method-name">test4_InvalidRegisterForm</span>
-                  <span class="parameters">(Charlie Brown, 555, 123456, 1, 1020, 123, 12345, p, Phone cannot be blank.)</span>
+                  <span class="parameters">(Charlie Brown, 555, 123456, 1, 1020, 123, 12345, p, Please enter a valid US mobile phone number)</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
               <div class="method">
                 <div class="method-content">
-                  <a name="test4_InvalidRegisterForm(, 5555555555, 123456, 5555, 1020, 123, 12345, p, Full Name cannot be blank.)">
-                  </a> <!-- test4_InvalidRegisterForm(, 5555555555, 123456, 5555, 1020, 123, 12345, p, Full Name cannot be blank.) -->
+                  <a name="test4_InvalidRegisterForm(Charlie Brown, , 123456, 1, 1020, 123, 12345, phone, Please fill out this field.)">
+                  </a> <!-- test4_InvalidRegisterForm(Charlie Brown, , 123456, 1, 1020, 123, 12345, phone, Please fill out this field.) -->
                   <span class="method-name">test4_InvalidRegisterForm</span>
-                  <span class="parameters">(, 5555555555, 123456, 5555, 1020, 123, 12345, p, Full Name cannot be blank.)</span>
+                  <span class="parameters">(Charlie Brown, , 123456, 1, 1020, 123, 12345, phone, Please fill out this field.)</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
               <div class="method">
                 <div class="method-content">
-                  <a name="test4_InvalidRegisterForm(Charlie Brown, 5555555555, 123456, 5555 5555 5555 5555, , 123, 12345, p, Your card number is invalid...)">
-                  </a> <!-- test4_InvalidRegisterForm(Charlie Brown, 5555555555, 123456, 5555 5555 5555 5555, , 123, 12345, p, Your card number is invalid...) -->
+                  <a name="test4_InvalidRegisterForm(Charlie Brown, 5555555555, , 1, 1020, 123, 12345, password, Please fill out this field.)">
+                  </a> <!-- test4_InvalidRegisterForm(Charlie Brown, 5555555555, , 1, 1020, 123, 12345, password, Please fill out this field.) -->
                   <span class="method-name">test4_InvalidRegisterForm</span>
-                  <span class="parameters">(Charlie Brown, 5555555555, 123456, 5555 5555 5555 5555, , 123, 12345, p, Your card number is invalid.)</span>
+                  <span class="parameters">(Charlie Brown, 5555555555, , 1, 1020, 123, 12345, password, Please fill out this field.)</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
               <div class="method">
                 <div class="method-content">
-                  <a name="test4_InvalidRegisterForm(Charlie Brown, , 123456, 1, 1020, 123, 12345, p, Phone cannot be blank.)">
-                  </a> <!-- test4_InvalidRegisterForm(Charlie Brown, , 123456, 1, 1020, 123, 12345, p, Phone cannot be blank.) -->
+                  <a name="test4_InvalidRegisterForm(, 5555555555, 123456, 5555, 1020, 123, 12345, name, Please fill out this field.)">
+                  </a> <!-- test4_InvalidRegisterForm(, 5555555555, 123456, 5555, 1020, 123, 12345, name, Please fill out this field.) -->
                   <span class="method-name">test4_InvalidRegisterForm</span>
-                  <span class="parameters">(Charlie Brown, , 123456, 1, 1020, 123, 12345, p, Phone cannot be blank.)</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="test4_InvalidRegisterForm(Charlie Brown, 5555555555, 12345, 1, 1020, 123, 12345, p, Password must be between 6 and 71 characte...)">
-                  </a> <!-- test4_InvalidRegisterForm(Charlie Brown, 5555555555, 12345, 1, 1020, 123, 12345, p, Password must be between 6 and 71 characte...) -->
-                  <span class="method-name">test4_InvalidRegisterForm</span>
-                  <span class="parameters">(Charlie Brown, 5555555555, 12345, 1, 1020, 123, 12345, p, Password must be between 6 and 71 characters long.)</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="test4_InvalidRegisterForm(Charlie Brown, 5555555555, , 1, 1020, 123, 12345, p, Password must be between 6 and 71 characters lo...)">
-                  </a> <!-- test4_InvalidRegisterForm(Charlie Brown, 5555555555, , 1, 1020, 123, 12345, p, Password must be between 6 and 71 characters lo...) -->
-                  <span class="method-name">test4_InvalidRegisterForm</span>
-                  <span class="parameters">(Charlie Brown, 5555555555, , 1, 1020, 123, 12345, p, Password must be between 6 and 71 characters long.)</span>
+                  <span class="parameters">(, 5555555555, 123456, 5555, 1020, 123, 12345, name, Please fill out this field.)</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
@@ -303,7 +390,7 @@
         </div> <!-- panel Default_suite -->
         <div panel-name="test-xml-Default_suite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">C:\Users\Eugene\AppData\Local\Temp\testng-eclipse-1503908714\testng-customsuite.xml</span>
+            <span class="header-content">C:\Users\Eugene\AppData\Local\Temp\testng-eclipse-290346191\testng-customsuite.xml</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <pre>
@@ -356,64 +443,64 @@ data.addRows(14);
 data.setCell(0, 0, 0)
 data.setCell(0, 1, 'test4_InvalidRegisterForm')
 data.setCell(0, 2, 'testclasses.TestNG_SignUp')
-data.setCell(0, 3, 7358);
+data.setCell(0, 3, 9574);
 data.setCell(1, 0, 1)
-data.setCell(1, 1, 'test4_InvalidRegisterForm')
+data.setCell(1, 1, 'test3_ZipInRange')
 data.setCell(1, 2, 'testclasses.TestNG_SignUp')
-data.setCell(1, 3, 4945);
+data.setCell(1, 3, 4615);
 data.setCell(2, 0, 2)
 data.setCell(2, 1, 'test4_InvalidRegisterForm')
 data.setCell(2, 2, 'testclasses.TestNG_SignUp')
-data.setCell(2, 3, 4510);
+data.setCell(2, 3, 2774);
 data.setCell(3, 0, 3)
-data.setCell(3, 1, 'test4_InvalidRegisterForm')
+data.setCell(3, 1, 'test1_InvalidEmailForm')
 data.setCell(3, 2, 'testclasses.TestNG_SignUp')
-data.setCell(3, 3, 3936);
+data.setCell(3, 3, 2624);
 data.setCell(4, 0, 4)
 data.setCell(4, 1, 'test4_InvalidRegisterForm')
 data.setCell(4, 2, 'testclasses.TestNG_SignUp')
-data.setCell(4, 3, 3797);
+data.setCell(4, 3, 2571);
 data.setCell(5, 0, 5)
 data.setCell(5, 1, 'test4_InvalidRegisterForm')
 data.setCell(5, 2, 'testclasses.TestNG_SignUp')
-data.setCell(5, 3, 3476);
+data.setCell(5, 3, 2516);
 data.setCell(6, 0, 6)
-data.setCell(6, 1, 'test4_InvalidRegisterForm')
+data.setCell(6, 1, 'test2_ZipOutOfRange')
 data.setCell(6, 2, 'testclasses.TestNG_SignUp')
-data.setCell(6, 3, 3147);
+data.setCell(6, 3, 2406);
 data.setCell(7, 0, 7)
-data.setCell(7, 1, 'test3_ZipInRange')
+data.setCell(7, 1, 'test4_InvalidRegisterForm')
 data.setCell(7, 2, 'testclasses.TestNG_SignUp')
-data.setCell(7, 3, 2657);
+data.setCell(7, 3, 2254);
 data.setCell(8, 0, 8)
-data.setCell(8, 1, 'test2_ZipOutOfRange')
+data.setCell(8, 1, 'test4_InvalidRegisterForm')
 data.setCell(8, 2, 'testclasses.TestNG_SignUp')
-data.setCell(8, 3, 2123);
+data.setCell(8, 3, 2170);
 data.setCell(9, 0, 9)
-data.setCell(9, 1, 'test1_InvalidEmailForm')
+data.setCell(9, 1, 'test4_InvalidRegisterForm')
 data.setCell(9, 2, 'testclasses.TestNG_SignUp')
-data.setCell(9, 3, 1681);
+data.setCell(9, 3, 2112);
 data.setCell(10, 0, 10)
 data.setCell(10, 1, 'test1_InvalidEmailForm')
 data.setCell(10, 2, 'testclasses.TestNG_SignUp')
-data.setCell(10, 3, 1304);
+data.setCell(10, 3, 1755);
 data.setCell(11, 0, 11)
 data.setCell(11, 1, 'test1_InvalidEmailForm')
 data.setCell(11, 2, 'testclasses.TestNG_SignUp')
-data.setCell(11, 3, 1248);
+data.setCell(11, 3, 1079);
 data.setCell(12, 0, 12)
 data.setCell(12, 1, 'test1_InvalidEmailForm')
 data.setCell(12, 2, 'testclasses.TestNG_SignUp')
-data.setCell(12, 3, 1059);
+data.setCell(12, 3, 1078);
 data.setCell(13, 0, 13)
 data.setCell(13, 1, 'test1_InvalidEmailForm')
 data.setCell(13, 2, 'testclasses.TestNG_SignUp')
-data.setCell(13, 3, 956);
+data.setCell(13, 3, 1027);
 window.suiteTableData['Default_suite']= { tableData: data, tableDiv: 'times-div-Default_suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 42 seconds</span>
+              <span class="suite-total-time">Total running time: 38 seconds</span>
               <div id="times-div-Default_suite">
               </div> <!-- times-div-Default_suite -->
             </div> <!-- times-div -->
@@ -445,64 +532,68 @@ return data;
                 <span class="method-start">0 ms</span>
               </div> <!-- configuration-class before -->
               <div class="test-method">
-                <span class="method-name">test1_InvalidEmailForm( , 94706, email, Please fill out this field.)</span>
-                <span class="method-start">17522 ms</span>
+                <span class="method-name">test1_InvalidEmailForm( , 94706, email, Please enter an email address.)</span>
+                <span class="method-start">45372 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">test1_InvalidEmailForm(charliebrown@fakecharlie.net, , zip, Please fill out this field.)</span>
-                <span class="method-start">18834 ms</span>
+                <span class="method-start">47127 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
-                <span class="method-name">test1_InvalidEmailForm(charlie.brown, 94706, email, Please include an '@' in the email address. 'charlie.brown' is missing ...)</span>
-                <span class="method-start">20088 ms</span>
+                <span class="method-name">test1_InvalidEmailForm(charlie.brown, 94706, email, Please enter an email address.)</span>
+                <span class="method-start">49751 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
-                <span class="method-name">test1_InvalidEmailForm(charliebrown@fakecharlie.net, 9470, p, Please enter a valid zip code)</span>
-                <span class="method-start">21049 ms</span>
+                <span class="method-name">test1_InvalidEmailForm(charliebrown@fakecharlie.net, 9470, p, Please enter a valid US zip code)</span>
+                <span class="method-start">50778 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
-                <span class="method-name">test1_InvalidEmailForm(charliebrown@fakecharlie.net, 947O6, p, Please enter a valid zip code)</span>
-                <span class="method-start">22734 ms</span>
+                <span class="method-name">test1_InvalidEmailForm(charliebrown@fakecharlie.net, 947O6, p, Please enter a valid US zip code)</span>
+                <span class="method-start">51873 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">test2_ZipOutOfRange</span>
-                <span class="method-start">23799 ms</span>
+                <span class="method-start">52966 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">test3_ZipInRange</span>
-                <span class="method-start">25928 ms</span>
+                <span class="method-start">55384 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
-                <span class="method-name">test4_InvalidRegisterForm(, 5555555555, 123456, 5555, 1020, 123, 12345, p, Full Name cannot be blank.)</span>
-                <span class="method-start">28642 ms</span>
+                <span class="method-name">test4_InvalidRegisterForm(, 5555555555, 123456, 5555, 1020, 123, 12345, name, Please fill out this field.)</span>
+                <span class="method-start">60058 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
-                <span class="method-name">test4_InvalidRegisterForm(Charlie Brown, , 123456, 1, 1020, 123, 12345, p, Phone cannot be blank.)</span>
-                <span class="method-start">36004 ms</span>
+                <span class="method-name">test4_InvalidRegisterForm(Charlie Brown, , 123456, 1, 1020, 123, 12345, phone, Please fill out this field.)</span>
+                <span class="method-start">69679 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
-                <span class="method-name">test4_InvalidRegisterForm(Charlie Brown, 555, 123456, 1, 1020, 123, 12345, p, Phone cannot be blank.)</span>
-                <span class="method-start">39484 ms</span>
+                <span class="method-name">test4_InvalidRegisterForm(Charlie Brown, 555, 123456, 1, 1020, 123, 12345, p, Please enter a valid US mobile phone number)</span>
+                <span class="method-start">72195 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
-                <span class="method-name">test4_InvalidRegisterForm(Charlie Brown, 5555555555, , 1, 1020, 123, 12345, p, Password must be between 6 and 71 characters lo...)</span>
-                <span class="method-start">42635 ms</span>
+                <span class="method-name">test4_InvalidRegisterForm(Charlie Brown, 5555555555, , 1, 1020, 123, 12345, password, Please fill out this field.)</span>
+                <span class="method-start">74365 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
-                <span class="method-name">test4_InvalidRegisterForm(Charlie Brown, 5555555555, 12345, 1, 1020, 123, 12345, p, Password must be between 6 and 71 characte...)</span>
-                <span class="method-start">46436 ms</span>
+                <span class="method-name">test4_InvalidRegisterForm(Charlie Brown, 5555555555, 12345, 1, 1020, 123, 12345, p, Password should be 6 characters or more)</span>
+                <span class="method-start">76477 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
+                <img src="failed.png">
+                </img>
                 <span class="method-name">test4_InvalidRegisterForm(Charlie Brown, 5555555555, 123456, 1, 1020, 123, 12345, p, Your card number is incomplete.)</span>
-                <span class="method-start">50375 ms</span>
+                <span class="method-start">79063 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
+                <img src="failed.png">
+                </img>
                 <span class="method-name">test4_InvalidRegisterForm(Charlie Brown, 5555555555, 123456, 5555 5555 5555 5555, , 123, 12345, p, Your card number is invalid...)</span>
-                <span class="method-start">54889 ms</span>
+                <span class="method-start">81333 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-class after">
                 <span class="method-name">afterClass</span>
-                <span class="method-start">59837 ms</span>
+                <span class="method-start">84107 ms</span>
               </div> <!-- configuration-class after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->

@@ -3,6 +3,7 @@ package testclasses;
 import java.util.concurrent.TimeUnit;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.firefox.FirefoxDriver;
 import org.testng.annotations.Test;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.DataProvider;
@@ -20,7 +21,7 @@ public class TestNG_SignUp {
 
 	@BeforeClass
 	public void beforeClass() throws Exception {
-		driver = new ChromeDriver();
+		driver = new FirefoxDriver();
 		baseUrl = "https://signup.shipt.com/#/enterEmail";
 		spf = new SignUpPageFactory(driver);
 		driver.manage().window().maximize();
@@ -86,7 +87,7 @@ public class TestNG_SignUp {
 	
 	@AfterClass
 	public void afterClass() {
-		driver.quit();
+		//driver.quit();
 	}
 	
 }

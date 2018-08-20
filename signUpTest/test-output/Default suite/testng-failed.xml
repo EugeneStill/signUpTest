@@ -5,9 +5,8 @@
     <classes>
       <class name="testclasses.TestNG_SignUp">
         <methods>
-          <include name="test3_ZipInRange"/>
           <include name="afterClass"/>
-          <include name="test4_InvalidRegisterForm" invocation-numbers="0 1 2 3 4 5"/>
+          <include name="test4_InvalidRegisterForm" invocation-numbers="5 6"/>
           <include name="beforeClass"/>
         </methods>
       </class> <!-- testclasses.TestNG_SignUp -->

@@ -19,7 +19,7 @@ public class SignUpPageFactory {
 	@FindBy(id = "zip")
 	WebElement zip;
 	
-	@FindBy(xpath = "//button//span[contains(text(),'Go')]")
+	@FindBy(xpath = "//button[contains(text(),'Go')]")
 	WebElement goButton;
 	
 	@FindBy(xpath = "//h3[contains(text(),'Oh no!')]")
@@ -28,10 +28,10 @@ public class SignUpPageFactory {
 	@FindBy(xpath = "//button[contains(text(),'Ok')]")
 	WebElement oKButton;
 	
-	@FindBy(xpath = "//a[@class='annual-box']")
+	@FindBy(xpath = "//h3[contains(text(),'Annual Plan')]")
 	WebElement annualBoxLink;
 	
-	@FindBy(xpath = "//p[contains(@class,'error')]")
+	@FindBy(xpath = "//p[@role='alert']")
 	WebElement pTagError;
 	
 	@FindBy(id = "name")
@@ -90,9 +90,9 @@ public class SignUpPageFactory {
 	}
 	
 	public void clearEmailForm() {
-		zip.clear();
 		email.clear();
-		log.info("Email form cleared");
+		zip.clear();
+ 		log.info("Email form cleared");
 	}
 
 	public void clickGoButton() {
